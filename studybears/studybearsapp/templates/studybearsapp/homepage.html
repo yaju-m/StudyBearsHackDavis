@@ -1,0 +1,61 @@
+<html>
+<head>
+  <title> Home </title>
+  <style>
+    h1 {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    #group_form {
+      /*position: fixed;
+      left: 100px;
+      right: 100px;
+      top: 100px;*/
+      height: 100px;
+      width: 200px;
+      margin-bottom: 50px;
+    }
+
+    #fill_form {
+      /*position: fixed;
+      left: 100px;
+      right: 100px;
+      top: 300px;*/
+      height: 100px;
+      width: 200px;
+      margin-bottom: 50px;
+    }
+
+    #my_groups {
+      /*position: fixed;
+      left: 100px;
+      right: 100px;
+      top: 500px;*/
+      height: 100px;
+      width: 200px;
+      margin-bottom: 50px;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align:center"> Home </h1>
+  <div style="text-align:center;">
+    <p> </p>
+    <form action="group" method="post">
+            <button type="submit" id= "group_form" name="group_form" value="group_form">Make New Group</button>
+    </form>
+    <!--<a href="form.html"><button id="fill_form" type="button">Fill Form</button></a>-->
+    <p> </p>
+    <p> </p>
+    <form action="form" method="post">
+            <button type="submit" id= "fill_form" name="fill_form" value="fill_form">Fill Form</button>
+          </form>
+    <!--<a href="form.html"><button id="fill_form" type="button">Fill Form</button></a>-->
+    <p> </p>
+     <form action="my_groups" method="post">
+            <button type="submit" id= "my_groups" name="my_groups" value="my_groups">My Groups</button>
+          </form>
+    <p> </p>
+  </div>
+</body>
+</html>
